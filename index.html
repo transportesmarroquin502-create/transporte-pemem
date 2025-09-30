@@ -6,60 +6,39 @@
   <title>Transporte Escolar Marroquín — Instituto PEMEM</title>
   <meta name="description" content="Buses Marroquín, más de 15 años de experiencia brindando un servicio seguro y confiable. Tu mejor opción de transporte para el Instituto PEMEM.">
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}
+    *{box-sizing:border-box;margin:0;padding:0}
     body{
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
-      background:url('portada.jpg') center/cover no-repeat fixed;
-      color:#fff;
-      text-align:center;
-      min-height:100vh;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
-      padding:20px;
+      min-height:100vh; background:linear-gradient(145deg,#0b57d0,#8ec5ff);
+      color:#fff; display:flex; flex-direction:column; align-items:center;
     }
-    h1{
-      font-size:28px;
-      margin-bottom:15px;
-      text-shadow:0 3px 6px rgba(0,0,0,.6);
-    }
-    p{
-      max-width:600px;
-      margin-bottom:20px;
-      font-size:18px;
-      line-height:1.4;
-      text-shadow:0 2px 5px rgba(0,0,0,.6);
-    }
+    .hero{width:100%; max-width:900px; display:block; height:auto}
+    .wrap{width:100%; max-width:900px; padding:18px 16px 28px; text-align:center}
+    h1{font-size:28px; line-height:1.15; margin:12px 0 10px; text-shadow:0 2px 6px rgba(0,0,0,.35)}
+    p{font-size:18px; line-height:1.4; margin:0 auto 18px; max-width:780px; text-shadow:0 2px 6px rgba(0,0,0,.35)}
     .btn{
-      display:inline-block;
-      background:#25D366;
-      color:#fff;
-      font-weight:700;
-      padding:14px 22px;
-      border-radius:10px;
-      font-size:18px;
-      text-decoration:none;
-      box-shadow:0 8px 18px rgba(0,0,0,.4);
-      transition:.2s;
+      display:inline-block; padding:14px 22px; border-radius:12px; font-weight:700;
+      background:#25D366; color:#fff; text-decoration:none; font-size:18px;
+      box-shadow:0 10px 20px rgba(0,0,0,.35)
     }
-    .btn:hover{background:#1ebe5d}
-    .foot{
-      margin-top:20px;
-      font-size:14px;
-      text-shadow:0 2px 5px rgba(0,0,0,.6);
-    }
+    .btn:active{transform:translateY(1px)}
+    .foot{margin-top:14px; font-size:14px; opacity:.95; text-shadow:0 2px 6px rgba(0,0,0,.35)}
   </style>
 </head>
 <body>
-  <h1>Transporte Escolar Marroquín — Instituto PEMEM</h1>
-  <p>Buses Marroquín, más de 15 años de experiencia brindando un servicio seguro y confiable. 
-     Tu mejor opción de transporte para el Instituto PEMEM.</p>
+  <!-- IMAGEN COMPLETA, SIN RECORTES -->
+  <img class="hero" src="portada.jpg" alt="Transporte Escolar Marroquín - Instituto PEMEM">
 
-  <a class="btn" href="https://wa.me/50247015081?text=Hola%20necesito%20m%C3%A1s%20informaci%C3%B3n%20para%20el%20servicio%20de%20bus%20escolar%20PEMEM" target="_blank" rel="noopener">
-    Consultar por WhatsApp
-  </a>
+  <div class="wrap">
+    <h1>Transporte Escolar Marroquín — Instituto PEMEM</h1>
+    <p>Buses Marroquín, más de 15 años de experiencia brindando un servicio seguro y confiable. 
+       Tu mejor opción de transporte para el Instituto PEMEM.</p>
 
-  <div class="foot">Si prefiere llamar: +502 4701 5081</div>
+    <a class="btn" href="https://wa.me/50247015081?text=Hola%20necesito%20m%C3%A1s%20informaci%C3%B3n%20para%20el%20servicio%20de%20bus%20escolar%20PEMEM" target="_blank" rel="noopener">
+      Consultar por WhatsApp
+    </a>
+
+    <div class="foot">Si prefiere llamar: +502 4701 5081</div>
+  </div>
 </body>
 </html>
